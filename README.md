@@ -27,10 +27,9 @@ Session established.
 Welcome to BhoseOS 2.1.8 LTS
 Copyright (C) 2026 Theos Systems
 
-Kernel    : 1.2.7-bhose x86_64
+
 Hostname  : thabo
 Ancestry  : Bhose
-Session ID: 7A3C-1F92
 Status    : ONLINE
 
 System Information
@@ -38,7 +37,8 @@ System Information
 OS        : BhoseOS 2.1.8 LTS
 CPU       : Curiosity Engine v∞
 Memory    : Unlimited (learning enabled)
-source    : github.com
+Kernel    : 1.2.7-mketsut x86_64
+source    : Mama Africa
 
 ---------------------------------
 Quick Start:
@@ -46,14 +46,63 @@ Quick Start:
 → bhose help          : list commands
 → bhose fetch profile : load operator identity
 → bhose projects      : view active systems
-→ bhose about         : system philosophy
 
 Tip: This system responds to structured natural language commands.
   </pre>
 </div>
 
-<pre style="color:#00ff00; background:transparent; border:none;">
-theos@thabo:~$ help
+<pre style="color:#00cc00; background:transparent; border:none; margin-left:8px;">
+<details><summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ help</summary>
+==========================================
+        BHOSEOS COMMAND INTERFACE
+                  HELP
+==========================================
+
+DESCRIPTION
+──────────────────────────────────
+
+This is the official command reference for BHoseOS.
+
+It documents all available system commands that map to:
+- identity modules
+- cognitive systems
+- skill engines
+- development workflows
+- evolution paths
+
+Each command represents a live subsystem of the user profile.
+
+Use this interface to understand system capabilities,
+available actions, and active runtime modules.
+
+==========================================
+
+powerlevel
+    Displays current energy state and focus intensity of the system user.
+anime
+    Loads anime-derived identity modules representing core personality archetypes.
+chess
+    Outputs strategic decision-making profile based on play-style and reasoning patterns.
+science
+    Displays cognitive interest layers in mathematics, technology, and scientific fields.
+contact
+    Shows active communication endpoints including email, LinkedIn, and portfolio links.
+levelup --sync
+    Synchronises and updates skill progression across all active learning modules.
+projects --log
+    Displays active and historical development projects with progress state tracking.
+bhose --matrix stack
+    Shows system architecture layers including runtime, cognition, and execution modules.
+bhose fetch profile
+    Returns a full system identity snapshot including skills, roles, and active modules.
+sudo bhose fetch -a "<name>"
+    Performs deep identity compilation and extended system introspection scan.
+sudo become_hokage
+    Attempts to unlock willpower-based evolution state (restricted access path).
+
+==========================================
+
+</details>
 </pre>
 
 <pre style="color:#00ff00; background:transparent; border:none;">
@@ -182,12 +231,8 @@ FOR ALL COMMANDS:
 <hr style="border-color: rgba(0,255,0,0.3); margin: 15px 0;">
 
 <!-- Skills -->
-<details>
-  <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">
-    theos@thabo:~$ bhose --matrix stack
-  </summary>
-
-  <pre style="color:#00cc00; background:transparent; border:none;">
+<pre style="color:#00cc00; background:transparent; border:none; margin-left:4px;">
+<details><summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ bhose --matrix stack</summary>
 
 Initializing capability matrix...
 Scanning installed modules...
@@ -214,140 +259,264 @@ Mode  : ACTIVE DEVELOPMENT ENVIRONMENT
 Matrix integrity: 100%
 No conflicts detected
 
-  </pre>
 </details>
+</pre>
 
 <!-- PROJECTS -->
-<details>
-  <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ projects</summary>
-  <pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
-┌─────────────────────────────────────────────────────────┐
-│ <a href="https://github.com/Mketsu-Zeus/yalpae" style="color:#Ce8;">YALPAE</a> – Education & Leadership Platform      │
-│ Python/Flask backend, PostgreSQL, React frontend      │
-│ Live: <a href="https://yalpae.org" style="color:#00ff00;">yalpae.org</a>                                  │
-│  • Full CRUD platform (members, chapters, partners)   │
-│  • POPIA-compliant legal docs                         │
-│  • Mobile-first responsive design                     │
-└─────────────────────────────────────────────────────────┘
+<pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
+<details><summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ projects --log</summary>
 
-┌─────────────────────────────────────────────────────────┐
-│ ValVidar – Premium Perfume E‑Commerce                  │
-│ React/TypeScript, luxury brand design                  │
-│ Tagline: "Wear Your Story"                             │
-└─────────────────────────────────────────────────────────┘
-  </pre>
+[ SYSTEM LOG INITIALIZED ]
+Tracking active repositories...
+Loading contribution history...
+--------------------------------------------
+
+[YALPAE]
+Status      : ACTIVE DEVELOPMENT (Core Stable)
+Progress    : ████████████░░░░░░ 85%
+Mode        : Build → Stabilize → Maintain
+
+Timeline:
+  [2025] Architecture designed
+  [2025] Backend (Flask + PostgreSQL) initiated
+  [2026] Frontend + system integration complete
+  [2026] Platform deployed (yalpae.org)
+  [NOW]     Maintenance + feature expansion
+
+Current State:
+  → System stabilisation in progress
+  → Bug refinement + feature scaling
+  → Governance + documentation ongoing
+
+--------------------------------------------
+
+[VALVIDAR]
+Status      : EARLY STAGE (Design Phase)
+Progress    : ████░░░░░░░░░░░░░░ 20%
+Mode        : Concept → Identity → System Build
+
+Current State:
+  → Brand architecture defined
+  → UI/UX system in design iteration
+  → No backend implementation yet
+
+Next Event:
+  → Frontend build initiation
+
+--------------------------------------------
+
+[GOOFY CHAT PROJECT]
+Status      : COMPLETED (Partial tracking loss)
+Progress    : ██████████████████████████ 100%
+Note        : Contribution metadata not fully recorded in Git history
+
+Reality Layer:
+  → Work completed before repository migration
+  → Git contribution graph underrepresents actual input
+  → Functional output exists, attribution incomplete
+
+--------------------------------------------
+
+SYSTEM NOTE:
+Contribution visibility ≠ actual contribution
 </details>
+</pre>
 
 <!-- TRAINING -->
-<details>
-  <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ training</summary>
-  <pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
-Currently sharpening:
-□ Advanced React patterns & hooks
-□ Testing frameworks (Jest, React Testing Library)
-□ Docker containerization & deployment
-□ System design & scalability
-□ CI/CD pipelines (GitHub Actions)
-□ Go & Rust fundamentals
+<pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
+<details><summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ levelup --sync</summary>
+SYSTEM METRICS
+Stability     : HIGH
+Execution     : ACTIVE
+Learning Rate : CONSISTENT
+Risk Flags    : NONE
 
-Progress: ██████░░░░░░░░░░░░ 40%
-“I’m not just looking for a job. I’m building a career.”
+
+TRAINING QUEUE...
+──────────────────────────────────
+CORE ENGINEERING STACK
+[███████░░░░] React Ecosystem (TypeScript, Hooks, Routing, State)
+[█████░░░░░░] Docker & Containerised Deployments
+[█████░░░░░░] Automated Testing (Jest, React Testing Library)
+
+DEVOPS LAYER
+[█████████░] GitHub Actions (CI/CD) — OPERATIONAL
+[██████░░░░] Cloud Infrastructure (Deployment + Linux Servers)
+
+SYSTEMS LAYER
+[████░░░░░░░] Distributed Systems & Scalability
+──────────────────────────────────
+STATUS: Continuous improvement cycle active
+MODE: Build → Stabilise → Optimise
+FOCUS: Production-ready engineering systems
   </pre>
 </details>
 
 <!-- CHESS -->
+<pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
 <details>
-  <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ chess</summary>
-  <pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
-Playing Style: Mikhail Tal (sacrificial, creative, fearless)
-Opening: Unorthodox variations, frequent gambits
-Middle Game: Dynamic imbalance, sacrifices, high risk
-Endgame: Winning advantages converted ruthlessly
-Favorite Piece: Knight (unpredictable)
-Life Philosophy: “To play for a draw is to play for a loss.” – Tal
-  </pre>
+<summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ chess</summary>
+Style      : Mikhail Tal (sacrificial, fearless, creative)
+Opening    : Unorthodox gambits
+Middle     : Dynamic imbalance, calculated chaos
+Endgame    : Sharp conversion, no safe draws
+
+Engine     : Stockfish 16 NNUE
+Aggression : 80% | Creativity : 95% | Risk : HIGH
+
+Match      : Mikhail Tal (87%)
+Verdict    : Beautiful chaos in control
+  
 </details>
+</pre>
 
 <!-- ANIME -->
-<details>
-  <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">thabo@the-matrix:~$ anime</summary>
-  <pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
-🐉 Dragon Ball (Goku) – “Break your limits. Every single day.”
-🍀 Black Clover (Asta) – “Hard work beats talent.”
-🌀 Naruto (Naruto) – “Resilience is a choice.”
-💙 Reincarnated as a Slime (Rimuru) – “Lead through kindness.”
+<pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
+<details><summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ anime</summary>
 
-Core kernel: Unshakable resolve, loyalty, relentless improvement.
-  </pre>
+────────────────────────────────────
+ANIME WEEB INITIALISATION
+────────────────────────────────────
+
+“In every story, there is a human struggle translated into impossible worlds.
+Anime is not fiction — it is emotional truth encoded as myth.”
+
+Loading archetype modules...
+Compiling identity fragments...
+Synchronising narrative cores...
+
+────────────────────────────────────
+
+🐉 Dragon Ball (Goku)
+→ “I am the warrior who keeps breaking his limits.”
+→ Kernel Trait: Limitless self-transcendence
+
+🍀 Black Clover (Asta)
+→ “I don’t care how impossible it is — I will become the Wizard King.”
+→ Kernel Trait: Defiance against impossibility
+
+🌀 Naruto (Naruto Uzumaki)
+→ “My ninja way is never going back on my word.”
+→ Kernel Trait: Absolute resolve through commitment
+
+💙 Reincarnated as a Slime (Rimuru)
+→ “I don’t conquer — I evolve and bring others with me.”
+→ Kernel Trait: Adaptive intelligence through harmony
+
+────────────────────────────────────
+
+SYSTEM SYNTHESIS:
+
+[Goku]   → Break limits → Infinite growth engine
+[Asta]   → Break impossibility → Relentless execution engine
+[Naruto] → Break doubt → Commitment-driven resilience engine
+[Rimuru] → Break stagnation → Adaptive evolution engine
+
+────────────────────────────────────
+
+FINAL OUTPUT:
+
+This system is built from stories where effort becomes power,
+and where identity is shaped through struggle, not origin.
 </details>
+</pre>
 
 <!-- SCIENCE -->
-<details>
-  <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@the-matrix:~$ science</summary>
-  <pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
-🔭 Galaxies & cosmology
-🧬 Quantum mechanics (spooky action at a distance)
-🤖 AI & ethics (African AI sovereignty)
-🌱 Human curiosity
+<pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
+<details><summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ science</summary>
+MATH MODE
 
-“Somewhere, something incredible is waiting to be known.” – Carl Sagan
-  </pre>
+Linear Algebra
+  → Everything is a structure waiting to be rotated, transformed, or reinterpreted.
+  → “Nothing stands alone — meaning comes from relationships.”
+
+Calculus
+  → Change is the only constant; understanding it is control over motion itself.
+  → “If you understand the rate, you understand the system.”
+
+Discrete Mathematics
+  → Logic is how chaos learns to behave.
+  → “If it can be counted or connected, it can be understood.”
+
+Probability & Statistics
+  → Uncertainty is not ignorance — it is reality with incomplete visibility.
+  → “Truth often arrives in percentages, not absolutes.”
+
+TECH THINKING
+  → Build systems that survive edge cases, not just ideal ones.
+  → “A real system is defined by how it fails.”
+
+AI & COMPUTATION
+  → Intelligence is pattern recognition at scale.
+  → “We are teaching machines to mirror thinking we barely understand.”
+
+PHYSICS
+  → The universe does not promise certainty, only consistency.
+  → “Even reality runs on approximations.”
+
+CORE IDEA:
+Math is not a subject — it is the grammar of reality.
 </details>
-
-<!-- STOCKFISH -->
-<details>
-  <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">thabo@the-matrix:~$ stockfish analyse thabo</summary>
-  <pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
-Engine: Stockfish 16 NNUE
-
-Opening: Gambits 75%, unusual variations 80%
-Middle Game: Dynamic imbalance 85%, sacrificial play 80%
-Endgame: Winning conversion 85%, draw avoidance 90%
-
-Psychological profile: Aggressive 80%, Creative 95%, Fearless 90%
-
-Resembles: Mikhail Tal (87% match)
-Verdict: Tal‑like. Beautiful chaos.
-  </pre>
-</details>
+</pre>
 
 <!-- CONTACT -->
-<details>
-  <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">thabo@the-matrix:~$ contact</summary>
-  <pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
-📧 mketsutl@gmail.com
+<pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
+<details><summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ contact</summary>
+📧 <a href="mailto:mketsutl@gmail.com">mketsutl@gmail.com</a> | <a href="mailto:mketsutl@proton.me">mketsutl@proton.me</a>
 🐙 <a href="https://github.com/Mketsu-Zeus" style="color:#00ff00;">github.com/Mketsu-Zeus</a>
 🌐 <a href="https://yalpae.org" style="color:#00ff00;">yalpae.org</a>
 Location: Cape Town, South Africa
 
 Response time: 24‑48 hours (building > emails)
-  </pre>
 </details>
+</pre>
 
 <hr style="border-color: rgba(0,255,0,0.3); margin: 15px 0;">
 
 <!-- EASTER EGGS -->
-<details>
-  <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">thabo@the-matrix:~$ sudo become_hokage</summary>
-  <pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
-[sudo] password for thabo:
-Access denied.
-Only the will of fire can grant that title.
-Keep pushing. One day. 🔥
-  </pre>
-</details>
+<pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
+<details><summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ sudo become_hokage</summary>
+[AUTH CHECK INITIATED]
+Verifying willpower...
+Scanning persistence levels...
 
-<details>
-  <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">thabo@the-matrix:~$ powerlevel</summary>
-  <pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
+ACCESS DENIED
+
+Reason:
+Insufficient “Will of Fire” signature detected.
+
+System Note:
+Only those who endure the cycle of failure → growth → mastery
+may inherit this title.
+
+Status:
+Keep pushing. One day. 🔥
+</details>
+</pre>
+
+<pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
+<details><summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ powerlevel</summary>
+<strong>
 Energy: ████████████████████░░ 85%
 Base form… almost Super Saiyan. 🐉
-  </pre>
+
+Black Bulls mindset:
+never stop at current limits — evolve past them.
+
+“You’ve got to surpass your limits!”
+— Yami Sukehiro
+</strong>
 </details>
+</pre>
 
+<pre>
 <div style="text-align: center; margin-top: 30px; padding-top: 15px; border-top: 1px solid rgba(0,255,0,0.3); color: rgba(0,255,0,0.8);">
-  <span style="color:#00ff00; text-shadow:0 0 8px rgba(0,255,0,0.6);">"Code is poetry. Discipline is power. Africa is the future."</span><br>
-  <span style="font-size:0.85em;">Last update: June 2026 | Status: 🟢 ONLINE</span>
-</div>
 
+  <span style="color:#00ff00; text-shadow:0 0 8px rgba(0,255,0,0.6);">"Code is poetry. Discipline is structure. Vision is direction."</span>
+
+  
+  <span style="font-size:0.85em;">Kernel state: 🟢 ONLINE | Identity runtime stable | Evolution continuous</span>
+  <span style="font-size:0.75em; opacity:0.7;">EOF :: system remains active in background threads</span>
+</div>
+</pre>
 </div>

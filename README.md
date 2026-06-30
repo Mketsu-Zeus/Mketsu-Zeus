@@ -14,88 +14,206 @@
   </pre>
 </div>
 
+<div style="text-align: center; margin-bottom: 20px;">
+  <pre style="color:#00ff00; background:transparent; border:none; font-family:'Courier New',monospace; line-height:1.6;">
+connecting mketsuthabo@bhose-elangeni.dev...
+
+Authenticating...
+✓ Public key accepted.
+
+Establishing secure session...
+Session established.
+
+Welcome to BhoseOS 2.1.8 LTS
+Copyright (C) 2026 Theos Systems
+
+Kernel    : 1.2.7-bhose x86_64
+Hostname  : thabo
+Ancestry  : Bhose
+Session ID: 7A3C-1F92
+Status    : ONLINE
+
+System Information
+
+OS        : BhoseOS 2.1.8 LTS
+CPU       : Curiosity Engine v∞
+Memory    : Unlimited (learning enabled)
+source    : github.com
+
+---------------------------------
+Quick Start:
+
+→ bhose help          : list commands
+→ bhose fetch profile : load operator identity
+→ bhose projects      : view active systems
+→ bhose about         : system philosophy
+
+Tip: This system responds to structured natural language commands.
+  </pre>
+</div>
+
 <pre style="color:#00ff00; background:transparent; border:none;">
-theos@thabo:~$ sudo bhose fetch -a "Thabo L Mketsu" < run all
+theos@thabo:~$ help
+</pre>
+
+<pre style="color:#00ff00; background:transparent; border:none;">
+theos@thabo:~$ sudo bhose fetch -a "Thabo L Mketsu"
+Initializing BhoseOS query engine...
+Loading operator registry...
+Accessing identity vault...
+
+██████████████████████████ 100%
+Authenticating elevated request...
+✓ Privileges verified.
+Fetching operator profile...
+
+██████████████████████████ 100%
+
+Status: COMPLETE
+Result: FULL PROFILE SYSTEM EXTRACTION SUCCESSFUL
+
+Next step:
+→ run 'whoami' to view active identity
 </pre>
 
 ##### whoami
 <!-- WHOAMI -->
 <pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
+theos@thabo:~$ bhose fetch profile
 
-theos@thabo:~$ whoami
-  Thabo <span style="color:#0f0; font-weight:bold;">{Theos}</span> Leroy Mketsu
-  <span style="color:#00ff00;">Δίας Θεός</span> | <span style="color:#0f0; font-weight:bold;">Bhose</span>
+------------------------------------------------
+PROFILE SNAPSHOT
+------------------------------------------------
 
-  <span style="color:#0f0;">@AKA : Zeus</span> 
+IDENTITY CORE
+Name        : Thabo Leroy Mketsu
+Codename    : Theos
+Alias       : Zeus
+System Role : Operator / Builder / Developer
+Network     : BhoseOS
+Status      : ACTIVE
 
-  <span style="color:#0f0;">Experience:</span>
-    Creative Tech Intern @ Yeba AI
-    CS Teaching Assistant @ Stellenbosch University
-    Junior Full‑Stack Developer
-    Founder @ YALPAE & eLangeni Core
+------------------------------------------------
+EXPERIENCE LAYERS
+------------------------------------------------
+[Layer 01] Creative Systems
+  • Creative Tech Intern @ Yeba AI
+  • Pitch design, onboarding systems, technical support
+  • Video + tutorial production (OBS, Canva, Linux tools)
 
-Education:
-  • BSc Computer Science (Stellenbosch University, 2024)
-  • Harvard Aspire Leadership Program (2025)
+[Layer 02] Software Development
+  • Junior Full-Stack Developer
+  • Built YALPAE (Python, Flask, PostgreSQL, HTML, CSS, JS)
+  • System architecture + database design + documentation
 
-Philosophy:
-  Code is poetry. Design is philosophy.
-  Africa builds its own technology future.
+[Layer 03] Education Systems
+  • CS Teaching Assistant @ Stellenbosch University
+  • Mentor, tutor, examiner support
+  • Academic systems & student support infrastructure
 
-Core Values:
-  Unshakable resolve | Technical excellence | Pan‑African vision
+[Layer 04] Early Systems
+  • Retail Operations (Cashier / Merchandiser)
+  • Bartending (high-pressure environments)
+  • Customer interaction + operational discipline
 
+------------------------------------------------
+TECHNICAL STACK
+------------------------------------------------
+Languages     : Python, Java, C, JavaScript, PHP, SQL
+Frontend      : HTML, CSS
+Backend       : Flask, basic system design
+Databases     : PostgreSQL
+Systems       : Linux (daily driver), Git, CLI
+Tools         : Vim, Emacs, OBS, Canva
+
+------------------------------------------------
+PROJECT SYSTEMS
+------------------------------------------------
+• YALPAE
+  - Full-stack education & leadership platform
+  - Architecture designed from scratch
+  - Active development (core system online)
+
+• Compiler Project (C)
+  - Low-level systems development
+  - Manual build, no IDE abstraction
+
+------------------------------------------------
+COGNITIVE PROFILE
+------------------------------------------------
+• Problem Solving      : High
+• Systems Thinking      : Strong
+• Adaptability          : Very High
+• Stress Resistance     : Proven (retail + dev environments)
+• Learning Velocity     : Accelerated
+
+------------------------------------------------
+PHILOSOPHY MODULE
+------------------------------------------------
+Code is poetry.
+Design is philosophy.
+Systems must serve people, not the other way around.
+Africa builds its own future through builders like us.
+
+------------------------------------------------
+CORE VALUES
+------------------------------------------------
+Unshakable resolve
+Technical discipline
+Creative curiosity
+Human-centered engineering
+Long-term thinking
+
+------------------------------------------------
+STATUS REPORT
+------------------------------------------------
+System Stability   : STABLE
+Creative Load      : HIGH
+Execution Mode     : ACTIVE DEVELOPMENT
+Risk Flags         : NONE
+
+------------------------------------------------
+FOR ALL COMMANDS:
+→ run 'bhose help'
+------------------------------------------------
 </pre>
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0; background: rgba(0,255,0,0.03); padding: 15px; border: 1px solid rgba(0,255,0,0.2);">
-  
-  <div style="padding: 5px 8px; border-left: 2px solid rgba(0,255,0,0.3);"><span style="color:#0f0; font-weight:bold;">mission</span><br><span style="font-size:0.9em;">Current operations</span></div>
-  <div style="padding: 5px 8px; border-left: 2px solid rgba(0,255,0,0.3);"><span style="color:#0f0; font-weight:bold;">arsenal</span><br><span style="font-size:0.9em;">Tech stack & tools</span></div>
-  <div style="padding: 5px 8px; border-left: 2px solid rgba(0,255,0,0.3);"><span style="color:#0f0; font-weight:bold;">projects</span><br><span style="font-size:0.9em;">Featured repositories</span></div>
-  <div style="padding: 5px 8px; border-left: 2px solid rgba(0,255,0,0.3);"><span style="color:#0f0; font-weight:bold;">training</span><br><span style="font-size:0.9em;">Currently sharpening</span></div>
-  <div style="padding: 5px 8px; border-left: 2px solid rgba(0,255,0,0.3);"><span style="color:#0f0; font-weight:bold;">chess</span><br><span style="font-size:0.9em;">Chess philosophy & style</span></div>
-  <div style="padding: 5px 8px; border-left: 2px solid rgba(0,255,0,0.3);"><span style="color:#0f0; font-weight:bold;">anime</span><br><span style="font-size:0.9em;">Inspirations & ethos</span></div>
-  <div style="padding: 5px 8px; border-left: 2px solid rgba(0,255,0,0.3);"><span style="color:#0f0; font-weight:bold;">science</span><br><span style="font-size:0.9em;">STEM & curiosity</span></div>
-  <div style="padding: 5px 8px; border-left: 2px solid rgba(0,255,0,0.3);"><span style="color:#0f0; font-weight:bold;">contact</span><br><span style="font-size:0.9em;">Communication protocols</span></div>
-  <div style="padding: 5px 8px; border-left: 2px solid rgba(0,255,0,0.3);"><span style="color:#0f0; font-weight:bold;">stockfish</span><br><span style="font-size:0.9em;">Deep chess analysis</span></div>
-</div>
 
 <hr style="border-color: rgba(0,255,0,0.3); margin: 15px 0;">
 
-
-<!-- MISSION -->
+<!-- Skills -->
 <details>
-  <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ mission</summary>
-Active Operations:
+  <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">
+    theos@thabo:~$ bhose --matrix stack
+  </summary>
 
-🟢 Yeba AI – Creative Tech Intern
-   Client onboarding | Pitch decks | Technical support | OBS tutorials
+  <pre style="color:#00cc00; background:transparent; border:none;">
 
-🟢 YALPAE – Chairman & Full‑Stack Developer
-   Education & leadership platform for African youth
-   Tech: Python/Flask, PostgreSQL, React, HTML/CSS/JS
-   Live: <a href="https://yalpae.org" style="color:#00ff00;">yalpae.org</a>
+Initializing capability matrix...
+Scanning installed modules...
+Loading system modules...
+Verifying environment...
 
-🟢 eLangeni Core – Founding Architect
-   African tech institution built on sovereignty & Ubuntu principles
-   Philosophy: 
-    $\lim_{x \to \infty} e^x = \infty$
+██████████████████████████ 100%
+    
+┌──────────────────────┬──────────────────────────────────────────────┐
+│ CATEGORY             │ STACK                                        │
+├──────────────────────┼──────────────────────────────────────────────┤
+│ Backend Systems      │ Python, Flask, PostgreSQL, Supabase, REST API│
+│ Frontend Systems     │ HTML, CSS, JavaScript, React, TypeScript,    │
+│                      │ Tailwind, Vite                               │
+│ Programming Langs    │ Python, JavaScript/TS, Java, C, PHP,         │
+│                      │ Assembly, MATLAB                             │
+│ Toolchain            │ Git, GitHub, Linux, Vim, Docker (basic),     │
+│                      │ OBS Studio                                   │
+│ Engineering Concepts │ System Design, DB Design, CI/CD, APIs,       │
+│                      │ Accessibility                                │
+└──────────────────────┴──────────────────────────────────────────────┘
 
+Mode  : ACTIVE DEVELOPMENT ENVIRONMENT
+Matrix integrity: 100%
+No conflicts detected
 
-Mode: Silent but lethal (quiet focus, clean execution)
-
-</details>
-</pre>
-
-<!-- ARSENAL -->
-<details>
-  <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ arsenal</summary>
-  <pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
-Backend:  Python, Flask, PostgreSQL, Supabase, REST APIs, Render
-Frontend: HTML, CSS, JavaScript, React, TypeScript, Tailwind, Vite
-Languages: C, Java, Python, JavaScript/TypeScript, Assembly, PHP, MATLAB
-Tools:    Git & GitHub, Linux (daily driver), Vim, Docker basics, OBS Studio
-Concepts: System architecture, database design, CI/CD, accessibility
   </pre>
 </details>
 
@@ -104,24 +222,12 @@ Concepts: System architecture, database design, CI/CD, accessibility
   <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">theos@thabo:~$ projects</summary>
   <pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
 ┌─────────────────────────────────────────────────────────┐
-│ <a href="https://github.com/Mketsu-Zeus/yalpae" style="color:#00ff00;">YALPAE</a> – Education & Leadership Platform      │
+│ <a href="https://github.com/Mketsu-Zeus/yalpae" style="color:#Ce8;">YALPAE</a> – Education & Leadership Platform      │
 │ Python/Flask backend, PostgreSQL, React frontend      │
 │ Live: <a href="https://yalpae.org" style="color:#00ff00;">yalpae.org</a>                                  │
 │  • Full CRUD platform (members, chapters, partners)   │
 │  • POPIA-compliant legal docs                         │
 │  • Mobile-first responsive design                     │
-└─────────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────┐
-│ Nolwazi – Textbook Donation & Library Inventory        │
-│ React/TypeScript, Vite, Tailwind, React Query          │
-│ Mobile-first web app for South African libraries       │
-└─────────────────────────────────────────────────────────┘
-
-┌─────────────────────────────────────────────────────────┐
-│ eLangeni Core – African Tech Institution               │
-│ React/TypeScript, brand systems, institutional design  │
-│ Vision: Technology built FROM Africa, not FOR Africa   │
 └─────────────────────────────────────────────────────────┘
 
 ┌─────────────────────────────────────────────────────────┐
@@ -210,7 +316,6 @@ Verdict: Tal‑like. Beautiful chaos.
   <summary style="color:#00ff00; font-weight:bold; cursor:pointer;">thabo@the-matrix:~$ contact</summary>
   <pre style="color:#00cc00; background:transparent; border:none; margin-left:15px;">
 📧 mketsutl@gmail.com
-💼 <a href="https://linkedin.com/in/thabomketsu" style="color:#00ff00;">linkedin.com/in/thabomketsu</a>
 🐙 <a href="https://github.com/Mketsu-Zeus" style="color:#00ff00;">github.com/Mketsu-Zeus</a>
 🌐 <a href="https://yalpae.org" style="color:#00ff00;">yalpae.org</a>
 Location: Cape Town, South Africa

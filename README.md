@@ -275,6 +275,7 @@ Loading contribution history...
 Status      : ACTIVE DEVELOPMENT (Core Stable)
 Progress    : ████████████░░░░░░ 85%
 Mode        : Build → Stabilize → Maintain
+Repo        : <a href="https://github.com/yalpae/yalpae-web">github.com/yalpae/yalpae-web</a>
 
 Timeline:
   [2025] Architecture designed
@@ -308,6 +309,7 @@ Next Event:
 [GOOFY CHAT PROJECT]
 Status      : COMPLETED (Partial tracking loss)
 Progress    : ██████████████████████████ 100%
+Repo        : <a href="https://github.com/Siyanda-cyber/goofy_test">github.com/Siyanda-cyber/goofy_test</a>
 Note        : Contribution metadata not fully recorded in Git history
 
 Reality Layer:

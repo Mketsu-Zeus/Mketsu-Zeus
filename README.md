@@ -139,8 +139,8 @@ Name        : Thabo Leroy Mketsu
 Codename    : Theos
 Alias       : Zeus
 System Role : Operator / Builder / Developer
-Network     : BhoseOS
-Status      : ACTIVE
+Ancestry    : Bhose
+Job-Seeking : ACTIVE
 
 ------------------------------------------------
 EXPERIENCE LAYERS
